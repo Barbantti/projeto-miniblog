@@ -1,0 +1,51 @@
+/* Delete modal */
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Background with transparency for blur effect */
+  backdrop-filter: blur(5px);
+  /* Adds the blur effect */
+  z-index: 1000;
+  /* High value for overlapping other elements */
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.btn_modal_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn_modal {
+  flex: 1;
+  background-color: #4cb5f9;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  margin: 0 32px;
+}
+
+.btn_modal:hover {
+  background-color: #0095f6;
+  color: #fff;
+}

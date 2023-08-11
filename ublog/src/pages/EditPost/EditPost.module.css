@@ -1,0 +1,36 @@
+.edit_post {
+  text-align: center;
+}
+
+.edit_post h2 {
+  font-size: 1.5em;
+}
+
+.edit_post p {
+  color: #737373;
+  margin-bottom: 2em;
+}
+
+.edit_post .preview_title {
+  margin-bottom: .2em;
+  color: #262626;
+  font-weight: bold;
+}
+
+.image_preview {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.content_box_size {
+  overflow: auto;
+  color: #262626;
+  min-height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+}
